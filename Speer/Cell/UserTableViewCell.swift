@@ -23,7 +23,8 @@ class UserTableViewCell: UITableViewCell {
     }
     
     // MARK: - Function
-    func config(user: User) {
+    func config(user: User?) {
+        guard let user = user else {return}
         let FollowersGesture = UITapGestureRecognizer(target: self, action: #selector(FollowersTapped))
         FollowerCountLabel.addGestureRecognizer(FollowersGesture)
         let FollowingGesture = UITapGestureRecognizer(target: self, action: #selector(FollowingTapped))

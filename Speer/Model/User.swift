@@ -28,6 +28,7 @@ class User:Codable {
     var follower: [User]?
     var userImage: UIImage?
     func downloadImage() {
+        // This added to prevent loading an image from a the URL every time we need it
         if let urlString = self.avatarUrl, let url = URL(string: urlString) {
             URLSession.shared.dataTask(with: url) { (data, response, error) in
               guard let imageData = data else { return }

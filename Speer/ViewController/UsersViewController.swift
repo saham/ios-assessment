@@ -3,8 +3,8 @@ import UIKit
 class UsersViewController: UIViewController {
     
     // MARK: - Variables
-    var AllUsers: [User] = [] // These could be optional but for simplicity, an empty array is used
-    var FilteredUsers: [User] = [] // These could be optional but for simplicity, an empty array is used
+    var AllUsers: [User] = [] // This could be optional but for simplicity, an empty array is used
+    var FilteredUsers: [User] = [] // This could be optional but for simplicity, an empty array is used
     
     // MARK: - Outlet
     @IBOutlet weak var tableView: UITableView!
@@ -65,15 +65,11 @@ extension UsersViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let text = searchBar.text, text.isEmpty {
-            return AllUsers.count
-        } else if FilteredUsers.count == 0 {
-            // User has searched but no result found
+        if let text = searchBar.text, !text.isEmpty,FilteredUsers.isEmpty {
             return 1
-        }else {
+        } else {
             return FilteredUsers.isEmpty ? AllUsers.count : FilteredUsers.count
         }
-        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -88,19 +84,17 @@ extension UsersViewController: UITableViewDataSource, UITableViewDelegate {
             let user = FilteredUsers.isEmpty  ? AllUsers[indexPath.row] : FilteredUsers[indexPath.row]
             cell.config(user: user)
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            cell.FollowingAction = {
-                if let DVC = storyboard.instantiateViewController(withIdentifier: "FollowingFollowerVC") as? FollowingFollowerViewController {
-                    DVC.users = user.following ?? []
+            if let DVC = storyboard.instantiateViewController(withIdentifier: "FollowingFollowerVC") as? FollowingFollowerViewController {
+                cell.FollowingAction = {
+                    DVC.users = user.following
+                    self.navigationController?.pushViewController(DVC, animated: true)
+                    
+                }
+                cell.FollowerAction = {
+                    DVC.users = user.follower
                     self.navigationController?.pushViewController(DVC, animated: true)
                 }
             }
-            cell.FollowerAction = {
-                if let DVC = storyboard.instantiateViewController(withIdentifier: "FollowingFollowerVC") as? FollowingFollowerViewController {
-                    DVC.users = user.follower ?? []
-                    self.navigationController?.pushViewController(DVC, animated: true)
-                }
-            }
-            
             return cell
         }
        
@@ -111,7 +105,7 @@ extension UsersViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if let searchText = searchBar.text{
             FilteredUsers = AllUsers.filter({$0.name?.contains(searchText) ?? false })
+            tableView.reloadData()
         }
-        tableView.reloadData()
     }
 }
