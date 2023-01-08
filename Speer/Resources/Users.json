@@ -1,0 +1,134 @@
+[
+    
+        {
+            "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+            "userName":"SammyGhazavi",
+            "name":"Sammy",
+            "description":"iOS developer",
+            "following":[
+                {
+                    "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                    "userName":"P1",
+                    "name":"Person1",
+                    "description":"iOS developer",
+                    "following":[
+                        {
+                            "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                            "userName":"P2",
+                            "name":"Person2",
+                            "description":"iOS developer",
+                            "following":[],
+                            "follower":[
+                            ]
+                        }
+                    ],
+                    "follower":[
+                        {
+                            "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                            "userName":"P2",
+                            "name":"Person2",
+                            "description":"iOS developer",
+                            "following":[],
+                            "follower":[
+                                {
+                                    "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                                    "userName":"P2",
+                                    "name":"Person2",
+                                    "description":"iOS developer",
+                                    "following":[],
+                                    "follower":[]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                    "userName":"P2",
+                    "name":"Person2",
+                    "description":"iOS developer",
+                    "following":[],
+                    "follower":[]
+                }
+            ],
+            "follower":[
+                {
+                    "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                    "userName":"P2",
+                    "name":"Person2",
+                    "description":"iOS developer",
+                    "following":[],
+                    "follower":[
+                        {
+                            "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                            "userName":"P2",
+                            "name":"Person2",
+                            "description":"iOS developer",
+                            "following":[],
+                            "follower":[]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+            "userName":"NovaNext",
+            "name":"Nova",
+            "description":"App Developer",
+            "following":[
+                {
+                    "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                    "userName":"P2",
+                    "name":"Person2",
+                    "description":"iOS developer",
+                    "following":[],
+                    "follower":[]
+                }
+            ],
+            "follower":[
+                {
+                    "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                    "userName":"P1",
+                    "name":"Person1",
+                    "description":"iOS developer",
+                    "following":[],
+                    "follower":[]
+                },
+                {
+                    "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+                    "userName":"P2",
+                    "name":"Person2",
+                    "description":"iOS developer",
+                    "following":[],
+                    "follower":[]
+                }
+            ]
+        },
+        {
+            "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+            "userName":"GroupExpensesLight",
+            "name":"Expenses Light",
+            "description":"Light Version",
+            "following":[],
+            "follower":[]
+        },
+        {
+            "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+            "userName":"GroupExpensesPlus",
+            "name":"Expenses Plus",
+            "description":"Plus Version with tones of cool features",
+            "following":[],
+            "follower":[]
+        },
+        {
+            "avatarUrl": "https://novanext.ca/wp/wp-content/uploads/2018/04/lOGO_-e1524144491700.png",
+            "userName":"Large",
+            "name":"Factorial of Large number",
+            "description":"It's for mathematicians and statisticans",
+            "following":[],
+            "follower":[]
+        }
+    
+    
+]
