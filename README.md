@@ -1,6 +1,6 @@
 # Speer Technologies iOS assessment
 
-### Assumption
+## Assumption
     1. There was no URL given for JSON and I created a local JSON file
     2. It was not clear what avatar's data type is and I assumed it's a URL to user profile image
     3. When user taps on Follower/Following, it goes to next screen and shows the list of Follower/Following. It was not clear if X Follower/ X Following labels on the second screen should be tappable or not. It's assumes they are not  tappable
