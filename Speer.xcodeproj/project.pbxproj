@@ -111,6 +111,7 @@
 		CE3C55FD296A74AB0080E1D8 /* Speer */ = {
 			isa = PBXGroup;
 			children = (
+				CE4D06E6296BA2F4000B644E /* Images */,
 				CE3C5638296A83AD0080E1D8 /* Resources */,
 				CE3C5637296A839E0080E1D8 /* Model */,
 				CE3C5636296A76E80080E1D8 /* Cell */,
@@ -118,8 +119,6 @@
 				CE3C5630296A766E0080E1D8 /* View */,
 				CE3C55FE296A74AB0080E1D8 /* AppDelegate.swift */,
 				CE3C5600296A74AB0080E1D8 /* SceneDelegate.swift */,
-				CE3C5607296A74AD0080E1D8 /* Assets.xcassets */,
-				CE3C5609296A74AD0080E1D8 /* LaunchScreen.storyboard */,
 				CE3C560C296A74AD0080E1D8 /* Info.plist */,
 			);
 			path = Speer;
@@ -145,6 +144,7 @@
 		CE3C5630296A766E0080E1D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE3C5609296A74AD0080E1D8 /* LaunchScreen.storyboard */,
 				CE3C5604296A74AB0080E1D8 /* Main.storyboard */,
 				CE3C5632296A76B40080E1D8 /* UserTableViewCell.xib */,
 			);
@@ -183,6 +183,14 @@
 				CE3C563B296A83EA0080E1D8 /* Users.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE4D06E6296BA2F4000B644E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C5607296A74AD0080E1D8 /* Assets.xcassets */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
