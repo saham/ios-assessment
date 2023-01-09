@@ -22,7 +22,6 @@
 		CE3C563E296A86EA0080E1D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C563D296A86EA0080E1D8 /* User.swift */; };
 		CE4D06E2296B2D6F000B644E /* FollowingFollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D06E1296B2D6F000B644E /* FollowingFollowerViewController.swift */; };
 		CE4D06E4296B30CC000B644E /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D06E3296B30CC000B644E /* UserProfileViewController.swift */; };
-		CE4D06E8296BAED3000B644E /* Assumption.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE4D06E7296BAED3000B644E /* Assumption.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +61,6 @@
 		CE3C563D296A86EA0080E1D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CE4D06E1296B2D6F000B644E /* FollowingFollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingFollowerViewController.swift; sourceTree = "<group>"; };
 		CE4D06E3296B30CC000B644E /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
-		CE4D06E7296BAED3000B644E /* Assumption.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Assumption.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +120,6 @@
 				CE3C55FE296A74AB0080E1D8 /* AppDelegate.swift */,
 				CE3C5600296A74AB0080E1D8 /* SceneDelegate.swift */,
 				CE3C560C296A74AD0080E1D8 /* Info.plist */,
-				CE4D06E7296BAED3000B644E /* Assumption.rtf */,
 			);
 			path = Speer;
 			sourceTree = "<group>";
@@ -303,7 +300,6 @@
 				CE3C5634296A76B40080E1D8 /* UserTableViewCell.xib in Resources */,
 				CE3C560B296A74AD0080E1D8 /* LaunchScreen.storyboard in Resources */,
 				CE3C5608296A74AD0080E1D8 /* Assets.xcassets in Resources */,
-				CE4D06E8296BAED3000B644E /* Assumption.rtf in Resources */,
 				CE3C563C296A83EA0080E1D8 /* Users.json in Resources */,
 				CE3C5606296A74AB0080E1D8 /* Main.storyboard in Resources */,
 			);
