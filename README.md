@@ -6,7 +6,7 @@
 3. When user taps on Follower/Following, it goes to next screen and shows the list of Follower/Following.
  It was not clear if X Follower/ X Following labels on the second screen should be tappable or not. 
  It's assumes they are not  tappable
-4. When search result is empty, we uses a different UITableviewCell as "Not Found" view
+4. When search result is empty, app uses a different UITableviewCell as "Not Found" view
 
 ## Overview
 
