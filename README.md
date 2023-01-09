@@ -1,5 +1,6 @@
 # Speer Technologies iOS assessment
 
+## Please read Assumption file
 
 ## Overview
 

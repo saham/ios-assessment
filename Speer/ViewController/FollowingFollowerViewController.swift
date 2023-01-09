@@ -3,6 +3,7 @@ import UIKit
 class FollowingFollowerViewController: UIViewController {
     // MARK: - Variables
     var users: [User]?
+    var pageTitle:String?
     
     // MARK: - Outlet
     @IBOutlet weak var tableView: UITableView!
@@ -10,6 +11,7 @@ class FollowingFollowerViewController: UIViewController {
     // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = pageTitle
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "UserTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")

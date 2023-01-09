@@ -87,13 +87,16 @@ extension UsersViewController: UITableViewDataSource, UITableViewDelegate {
             cell.config(user: user)
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             if let DVC = storyboard.instantiateViewController(withIdentifier: "FollowingFollowerVC") as? FollowingFollowerViewController {
+                
                 cell.FollowingAction = {
                     DVC.users = user.following
+                    DVC.pageTitle = "Following"
                     self.navigationController?.pushViewController(DVC, animated: true)
-                    
                 }
+                
                 cell.FollowerAction = {
                     DVC.users = user.follower
+                    DVC.pageTitle = "Follower"
                     self.navigationController?.pushViewController(DVC, animated: true)
                 }
             }
