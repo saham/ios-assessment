@@ -39,7 +39,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="F1L-6t-idN">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="F1L-6t-idN">
                                 <rect key="frame" x="8" y="125" width="377" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>

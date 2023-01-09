@@ -18,7 +18,6 @@ class UsersViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(UINib(nibName: "UserTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
-        tableView.register(UINib(nibName: "NotFoundTableViewCell", bundle: nil), forCellReuseIdentifier: "NotFoundCell")
         tableView.separatorStyle = .singleLine
         
     }
@@ -77,7 +76,10 @@ extension UsersViewController: UITableViewDataSource, UITableViewDelegate {
             // We show Not Found if user is searching but no result is shown
             // When App starts FilteredUser is empty but user has not searched
             // We do not want to show "Not Found" view
-            let cell = tableView.dequeueReusableCell(withIdentifier: "NotFoundCell", for: indexPath) as! NotFoundTableViewCell
+            let cell = UITableViewCell()
+            var content = cell.defaultContentConfiguration()
+            content.text = "Not Found"
+            cell.contentConfiguration = content
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! UserTableViewCell
