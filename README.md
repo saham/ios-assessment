@@ -1,9 +1,9 @@
 # Speer Technologies iOS assessment
 
 ### Assumption
-    ▪    There was no URL given for JSON and I created one
-    ▪    It was not clear what avatar's data type is and I assumed it's a URL to user profile image
-    ▪    When user taps on Follower/Following, it goes to next screen and shows the list of Follower/Following. It was not clear if X Follower/ X Following labels on the second screen should be tappable or not. It's assumes they are not  tappable
+    1. There was no URL given for JSON and I created a local JSON file
+    2. It was not clear what avatar's data type is and I assumed it's a URL to user profile image
+    3. When user taps on Follower/Following, it goes to next screen and shows the list of Follower/Following. It was not clear if X Follower/ X Following labels on the second screen should be tappable or not. It's assumes they are not  tappable
 ## Overview
 
 The goal of this assessment is to build a basic iOS application which demonstrates common tasks such as fetching data, parsing model entities from JSON, UI, and navigation. You may write the app using what you're most comfortable with, whether it's Storyboards, pure UIKit, or SwiftUI. You are also free to code in either Swift or Objective-C.
