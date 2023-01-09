@@ -7,6 +7,7 @@
  It was not clear if X Follower/ X Following labels on the second screen should be tappable or not. 
  It's assumes they are not tappable
 4. When search result is empty, app uses a different UITableviewCell as the "Not Found" view
+5. It was better if each user had a unique ID and Follower/Following arrays were filled with just ID's. Since a user does not have an ID, Follower/Following arrays have repeated users. 
 
 ## Overview
 
