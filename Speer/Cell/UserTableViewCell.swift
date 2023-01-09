@@ -14,13 +14,13 @@ class UserTableViewCell: UITableViewCell {
     @IBOutlet weak var FollowerCountLabel: UILabel!
     @IBOutlet weak var FollowingCountLabel: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-    
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+//    }
+//    
+//    override func setSelected(_ selected: Bool, animated: Bool) {
+//        super.setSelected(selected, animated: animated)
+//    }
     
     // MARK: - Function
     func config(user: User?) {
