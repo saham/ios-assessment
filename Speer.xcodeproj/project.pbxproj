@@ -22,6 +22,7 @@
 		CE3C563E296A86EA0080E1D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C563D296A86EA0080E1D8 /* User.swift */; };
 		CE4D06E2296B2D6F000B644E /* FollowingFollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D06E1296B2D6F000B644E /* FollowingFollowerViewController.swift */; };
 		CE4D06E4296B30CC000B644E /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D06E3296B30CC000B644E /* UserProfileViewController.swift */; };
+		CE4D06EA296BB724000B644E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE4D06E9296BB724000B644E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CE3C563D296A86EA0080E1D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CE4D06E1296B2D6F000B644E /* FollowingFollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingFollowerViewController.swift; sourceTree = "<group>"; };
 		CE4D06E3296B30CC000B644E /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		CE4D06E9296BB724000B644E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		CE3C55F2296A74AB0080E1D8 = {
 			isa = PBXGroup;
 			children = (
+				CE4D06E9296BB724000B644E /* README.md */,
 				CE3C55FD296A74AB0080E1D8 /* Speer */,
 				CE3C5614296A74AD0080E1D8 /* SpeerTests */,
 				CE3C561E296A74AE0080E1D8 /* SpeerUITests */,
@@ -297,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4D06EA296BB724000B644E /* README.md in Resources */,
 				CE3C5634296A76B40080E1D8 /* UserTableViewCell.xib in Resources */,
 				CE3C560B296A74AD0080E1D8 /* LaunchScreen.storyboard in Resources */,
 				CE3C5608296A74AD0080E1D8 /* Assets.xcassets in Resources */,
